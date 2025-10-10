@@ -30,7 +30,8 @@
             "path": ".",
             "exclude-paths": [
                 "module/evaluation",
-                "openfeature/providers/kotlin-provider"
+                "openfeature/providers/kotlin-provider",
+                "openfeature/providers/python-provider"
             ]
         },
         "module/evaluation": {
@@ -44,9 +45,20 @@
             "include-component-in-tag": true,
             "component": "openfeature/providers/kotlin-provider",
             "changelog-path": "openfeature/providers/kotlin-provider/CHANGELOG.md",
+            "skip-snapshot": true,
             "extra-files": [
                 "gradle.properties",
                 "build.gradle.kts",
+                "README.md"
+            ]
+        },
+        "openfeature/providers/python-provider": {
+            "release-type": "python",
+            "include-component-in-tag": true,
+            "component": "openfeature/providers/python-provider",
+            "changelog-path": "openfeature/providers/python-provider/CHANGELOG.md",
+            "extra-files": [
+                "pyproject.toml",
                 "README.md"
             ]
         }
