@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.51.0](https://github.com/thomaspoignant/goff-fork/compare/v1.50.0...v1.51.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* toto ([#73](https://github.com/thomaspoignant/goff-fork/issues/73)) ([73c5e1c](https://github.com/thomaspoignant/goff-fork/commit/73c5e1c1af4cbb7e8dbc0cd235b6fd9f9702c925))
+
 ## [1.50.0](https://github.com/thomaspoignant/goff-fork/compare/v1.49.4...v1.50.0) (2025-10-10)
 
 
