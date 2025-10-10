@@ -32,14 +32,15 @@
             "exclude-paths": [
                 "module/evaluation",
                 "openfeature/providers/kotlin-provider",
-                "openfeature/providers/python-provider"
+                "openfeature/providers/python-provider",
+                ".release-please-manifest.json"
             ]
         },
         "module/evaluation": {
             "release-type": "go",
             "include-component-in-tag": true,
             "component": "module/evaluation",
-            "changelog-path": "module/evaluation/CHANGELOG.md"
+            "changelog-path": "CHANGELOG.md"
         },
         "openfeature/providers/kotlin-provider": {
             "release-type": "java",
@@ -57,7 +58,7 @@
             "release-type": "python",
             "include-component-in-tag": true,
             "component": "openfeature/providers/python-provider",
-            "changelog-path": "openfeature/providers/python-provider/CHANGELOG.md",
+            "changelog-path": "CHANGELOG.md",
             "extra-files": [
                 "pyproject.toml",
                 "README.md"
