@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.50.0](https://github.com/thomaspoignant/goff-fork/compare/v1.49.4...v1.50.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* Update .release-please-manifest.json ([872f54e](https://github.com/thomaspoignant/goff-fork/commit/872f54e212efe6a078fdf8e759926f6f7cb63427))
+
 ## [1.49.4](https://github.com/thomaspoignant/goff-fork/compare/v1.49.3...v1.49.4) (2025-10-10)
 
 
