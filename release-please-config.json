@@ -33,7 +33,8 @@
                 "module/evaluation",
                 "openfeature/providers/kotlin-provider",
                 "openfeature/providers/python-provider",
-                ".release-please-manifest.json"
+                ".release-please-manifest.json",
+                "CHANGELOG.md"
             ]
         },
         "module/evaluation": {
