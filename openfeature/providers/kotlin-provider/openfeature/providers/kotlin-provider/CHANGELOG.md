@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.5.0...openfeature/providers/kotlin-provider/v1.6.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* Update GoFeatureFlagMetadata.kt ([95f4fc9](https://github.com/thomaspoignant/goff-fork/commit/95f4fc9d9f88a5b2b939c7a0a51cb7eed29e7c6a))
+
 ## [1.5.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.4.1...openfeature/providers/kotlin-provider/v1.5.0) (2025-10-10)
 
 
