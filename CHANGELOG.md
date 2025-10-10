@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.48.1](https://github.com/thomaspoignant/goff-fork/compare/v1.48.0...v1.48.1) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* test ([f78aa77](https://github.com/thomaspoignant/goff-fork/commit/f78aa77bfdc1bfd8328f1cf261f56ddf3cd5d862))
+
+
+### 🔧 Chores
+
+* **main:** release module/evaluation 1.1.0 ([81e9743](https://github.com/thomaspoignant/goff-fork/commit/81e9743db2d012d2c183e104ebf5dc2582e9a569))
+
 ## [1.48.0](https://github.com/thomaspoignant/goff-fork/compare/v1.47.1...v1.48.0) (2025-10-10)
 
 
