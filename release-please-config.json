@@ -8,6 +8,10 @@
             "release-type": "go",
             "include-component-in-tag": false,
             "release-as": "v1.47.0"
+        },
+        "module/evaluation": {
+            "release-type": "go",
+            "include-component-in-tag": false
         }
     }
 }
