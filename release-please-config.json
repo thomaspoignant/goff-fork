@@ -7,11 +7,14 @@
         ".": {
             "release-type": "go",
             "include-component-in-tag": false,
-            "release-as": "v1.47.0"
+            "changelog-path": "CHANGELOG.md"
         },
         "module/evaluation": {
             "release-type": "go",
-            "include-component-in-tag": true
+            "include-component-in-tag": true,
+            "release-as": "v1.0.0",
+            "component": "module/evaluation",
+            "changelog-path": "module/evaluation/CHANGELOG.md"
         }
     }
 }
