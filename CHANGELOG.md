@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.47.1](https://github.com/thomaspoignant/goff-fork/compare/v1.47.0...v1.47.1) (2025-10-10)
+
+
+### Bug Fixes
+
+* add exclusions ([1101277](https://github.com/thomaspoignant/goff-fork/commit/1101277d3ec26c66cc0f8db561930c2d566e4da5))
+
 ## [1.47.0](https://github.com/thomaspoignant/goff-fork/compare/v1.46.1...v1.47.0) (2025-10-10)
 
 
