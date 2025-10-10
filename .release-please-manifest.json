@@ -2,5 +2,5 @@
     ".": "1.48.2",
     "module/evaluation": "1.1.0",
     "openfeature/providers/kotlin-provider": "1.2.0",
-    "openfeature/providers/python-provider": "1.0.1"
+    "openfeature/providers/python-provider": "1.0.2"
 }
