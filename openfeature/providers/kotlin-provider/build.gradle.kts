@@ -9,7 +9,7 @@ plugins {
 
 allprojects {
     extra["groupId"] = "org.gofeatureflag.openfeature"
-    ext["version"] = "0.0.1-beta.1"
+    ext["version"] = "0.0.1-beta.1" # x-release-please-version
 }
 
 group = project.extra["groupId"].toString()

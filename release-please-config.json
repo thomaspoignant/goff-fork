@@ -11,15 +11,25 @@
             "changelog-path": "CHANGELOG.md",
             "path": ".",
             "exclude-paths": [
-                "module/evaluation"
+                "module/evaluation",
+                "openfeature/providers/kotlin-provider"
             ]
         },
         "module/evaluation": {
             "release-type": "go",
             "include-component-in-tag": true,
-            "release-as": "v1.0.0",
             "component": "module/evaluation",
             "changelog-path": "module/evaluation/CHANGELOG.md"
+        },
+        "openfeature/providers/kotlin-provider": {
+            "include-component-in-tag": true,
+            "component": "openfeature/providers/kotlin-provider",
+            "changelog-path": "openfeature/providers/kotlin-provider/CHANGELOG.md",
+            "extra-files": [
+                "gradle.properties",
+                "build.gradle.kts",
+                "README.md"
+            ]
         }
     }
 }
