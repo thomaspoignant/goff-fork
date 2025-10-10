@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.48.5](https://github.com/thomaspoignant/goff-fork/compare/v1.48.4...v1.48.5) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* fcrfldih ([4cf0e49](https://github.com/thomaspoignant/goff-fork/commit/4cf0e49e1670ffbef52c3634902d0d0ec96db0ea))
+
+
+### 🔧 Chores
+
+* **main:** release openfeature/providers/kotlin-provider 1.2.2 ([ab8b234](https://github.com/thomaspoignant/goff-fork/commit/ab8b23492f7c4855450f57597d2a602ddb81cf61))
+* **main:** release openfeature/providers/kotlin-provider 1.2.2 ([c80b1b7](https://github.com/thomaspoignant/goff-fork/commit/c80b1b7fece6decd17df895dbc4f49e08e32375e))
+
 ## [1.48.4](https://github.com/thomaspoignant/goff-fork/compare/v1.48.3...v1.48.4) (2025-10-10)
 
 
