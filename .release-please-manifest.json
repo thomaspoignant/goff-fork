@@ -1,5 +1,5 @@
 {
     ".": "1.47.1",
     "module/evaluation": "1.0.0",
-    "openfeature/providers/kotlin-provider": "1.0.0"
+    "openfeature/providers/kotlin-provider": "1.1.0"
 }
