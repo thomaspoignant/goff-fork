@@ -7,6 +7,14 @@
 
 * ignore path ([313e0cf](https://github.com/thomaspoignant/goff-fork/commit/313e0cf6d1fb6bdfe994b24f22af9adf05be268d))
 
+
+### 🔧 Chores
+
+* **main:** release 1.49.1 ([fe114bf](https://github.com/thomaspoignant/goff-fork/commit/fe114bf4feaf12c99b922cda3b03b0694fe10d8b))
+* **main:** release 1.49.1 ([c052b16](https://github.com/thomaspoignant/goff-fork/commit/c052b16cbef36c54ec9cf2b5a76292b52a9ad912))
+* **main:** release openfeature/providers/kotlin-provider 1.4.0 ([cdf1d24](https://github.com/thomaspoignant/goff-fork/commit/cdf1d24f07df41f44d996f5197ff02afbcd364a3))
+* **main:** release openfeature/providers/kotlin-provider 1.4.0 ([0340694](https://github.com/thomaspoignant/goff-fork/commit/0340694fb103de00b39fbe0f475ec2a3ca2e7302))
+
 ## [1.49.0](https://github.com/thomaspoignant/goff-fork/compare/v1.48.5...v1.49.0) (2025-10-10)
 
 
