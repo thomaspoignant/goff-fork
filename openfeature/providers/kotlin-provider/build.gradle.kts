@@ -11,7 +11,6 @@ allprojects {
     extra["groupId"] = "org.gofeatureflag.openfeature"
     ext["version"] = "1.2.1" # x-release-please-version
 }
-
 group = project.extra["groupId"].toString()
 version = project.extra["version"].toString()
 nexusPublishing {
