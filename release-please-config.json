@@ -4,6 +4,24 @@
     "separate-pull-requests": true,
     "include-v-in-tag": true,
     "tag-separator": "/",
+    "changelog-sections": [
+        {
+            "type": "fix",
+            "section": "🐛 Bug Fixes"
+        },
+        {
+            "type": "feat",
+            "section": "🚀 New Features"
+        },
+        {
+            "type": "chore",
+            "section": "🔧 Chores"
+        },
+        {
+            "type": "docs",
+            "section": "📚 Documentation"
+        }
+    ],
     "packages": {
         ".": {
             "release-type": "go",
