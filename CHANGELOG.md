@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.48.4](https://github.com/thomaspoignant/goff-fork/compare/v1.48.3...v1.48.4) (2025-10-10)
+
+
+### 🔧 Chores
+
+* **main:** release openfeature/providers/kotlin-provider 1.2.1 ([dda845e](https://github.com/thomaspoignant/goff-fork/commit/dda845eaffa45034ae5c3bca6a1f1cafabdde21e))
+* **main:** release openfeature/providers/python-provider 1.0.2 ([679826e](https://github.com/thomaspoignant/goff-fork/commit/679826e52bd9a2cbaf1b26077723db0e667ed147))
+* remove ci ([3d15a8c](https://github.com/thomaspoignant/goff-fork/commit/3d15a8c34539316fbf1b0b7f7572d32e13f4b39f))
+
 ## [1.48.3](https://github.com/thomaspoignant/goff-fork/compare/v1.48.2...v1.48.3) (2025-10-10)
 
 
