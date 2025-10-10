@@ -22,6 +22,7 @@
             "changelog-path": "module/evaluation/CHANGELOG.md"
         },
         "openfeature/providers/kotlin-provider": {
+            "release-type": "java",
             "include-component-in-tag": true,
             "component": "openfeature/providers/kotlin-provider",
             "changelog-path": "openfeature/providers/kotlin-provider/CHANGELOG.md",
