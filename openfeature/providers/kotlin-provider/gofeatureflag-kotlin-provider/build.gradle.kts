@@ -7,6 +7,7 @@ plugins {
 }
 
 val releaseVersion = project.extra["version"].toString()
+
 android {
     namespace = "org.gofeatureflag.openfeature"
     compileSdk = 33
