@@ -11,7 +11,7 @@
         },
         "module/evaluation": {
             "release-type": "go",
-            "include-component-in-tag": false
+            "include-component-in-tag": true
         }
     }
 }
