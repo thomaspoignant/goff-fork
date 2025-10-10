@@ -10,7 +10,7 @@ class BaseModel(PydanticBaseModel):
 
 class GoFeatureFlagOptions(BaseModel):
     # endpoint is the endpoint of the relay proxy.
-    # example: http://localhost:1031
+    # example: http://localhost:1031fdws
     endpoint: AnyHttpUrl
 
     # flagCacheSize (optional) is the maximum number of flag events we keep in memory to cache your flags.
