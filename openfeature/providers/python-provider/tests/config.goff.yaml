@@ -5,7 +5,7 @@ bool_targeting_match:
       'True': 100
   metadata:
     description: this is a test
-    pr_link: https://github.com/thomaspoignant/go-feature-flag/pull/9164
+    pr_link: https://github.com/thomaspoignant/go-feature-flag/pull/916
   targeting:
   - query: email eq "john.doe@gofeatureflag.org"
     variation: 'True'
