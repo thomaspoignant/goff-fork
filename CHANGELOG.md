@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.49.0](https://github.com/thomaspoignant/goff-fork/compare/v1.48.5...v1.49.0) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* fcrfldih ([9441f1a](https://github.com/thomaspoignant/goff-fork/commit/9441f1a204154530c9c13f414a4ddb4183792759))
+
+
+### 🚀 New Features
+
+* Update build.gradle.kts ([b5f9ca7](https://github.com/thomaspoignant/goff-fork/commit/b5f9ca779de656587870ea866b1d9ca29bef5c48))
+* Update build.gradle.kts ([19044a9](https://github.com/thomaspoignant/goff-fork/commit/19044a905abffdc20c645ff4bb40bfded466f535))
+
+
+### 🔧 Chores
+
+* **main:** release openfeature/providers/kotlin-provider 1.3.0 ([933879b](https://github.com/thomaspoignant/goff-fork/commit/933879b3f2353cfb191ed5c002ef544f413011f1))
+* **main:** release openfeature/providers/kotlin-provider 1.3.0 ([16057df](https://github.com/thomaspoignant/goff-fork/commit/16057df0ed923449471ebf82fe4b5dfc094c5ace))
+
 ## [1.48.5](https://github.com/thomaspoignant/goff-fork/compare/v1.48.4...v1.48.5) (2025-10-10)
 
 
