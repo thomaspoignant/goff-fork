@@ -19,4 +19,4 @@ jobs:
                   # The action will create/refresh a Release PR when there are releasable commits
                   # (feat, fix, deps, etc.).
                   # See: https://github.com/googleapis/release-please
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  token: ${{ secrets.PAT }}
