@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.49.2](https://github.com/thomaspoignant/goff-fork/compare/v1.49.1...v1.49.2) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* cfevkug ([2748957](https://github.com/thomaspoignant/goff-fork/commit/2748957496ce6cc4625ac96b05e8b9ff749097a9))
+
+
+### 🔧 Chores
+
+* **main:** release 1.49.1 ([cc800f0](https://github.com/thomaspoignant/goff-fork/commit/cc800f03bff9a13e31efde6c11b82c7fcc943fd1))
+* **main:** release 1.49.1 ([36ddef6](https://github.com/thomaspoignant/goff-fork/commit/36ddef67d5665e7d6b9c3b48f293a143e40dda6c))
+* **main:** release openfeature/providers/kotlin-provider 1.4.1 ([30ee6c1](https://github.com/thomaspoignant/goff-fork/commit/30ee6c1eaa82acbb876e72f2fa25ae0817b9f957))
+* **main:** release openfeature/providers/kotlin-provider 1.4.1 ([7900abf](https://github.com/thomaspoignant/goff-fork/commit/7900abfdc24a4aa286cd3fdf4dbed220e0badfca))
+
 ## [1.49.1](https://github.com/thomaspoignant/goff-fork/compare/v1.49.0...v1.49.1) (2025-10-10)
 
 
