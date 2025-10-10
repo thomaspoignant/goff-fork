@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.6.1...openfeature/providers/kotlin-provider/v1.6.2) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* Update build.gradle.kts ([#71](https://github.com/thomaspoignant/goff-fork/issues/71)) ([efbf4c5](https://github.com/thomaspoignant/goff-fork/commit/efbf4c583413ca778882adf92605cf8ff50a1f47))
+
 ## [1.6.1](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.6.0...openfeature/providers/kotlin-provider/v1.6.1) (2025-10-10)
 
 
