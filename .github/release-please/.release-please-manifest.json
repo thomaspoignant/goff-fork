@@ -1,6 +1,6 @@
 {
     ".": "1.52.0",
-    "module/evaluation": "1.2.6",
+    "module/evaluation": "1.2.7",
     "openfeature/providers/python-provider": "1.2.0",
     "openfeature/providers/kotlin-provider": "1.6.2"
 }

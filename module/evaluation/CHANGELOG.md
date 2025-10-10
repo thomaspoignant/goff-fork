@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.2.6...module/evaluation/v1.2.7) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* toto ([3fd1af8](https://github.com/thomaspoignant/goff-fork/commit/3fd1af8c25478466bbce0f091894aca3452ca3c6))
+
 ## [1.2.6](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.2.5...module/evaluation/v1.2.6) (2025-10-10)
 
 
