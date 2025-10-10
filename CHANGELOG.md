@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.48.0](https://github.com/thomaspoignant/goff-fork/compare/v1.47.1...v1.48.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* WIP ([e043ea3](https://github.com/thomaspoignant/goff-fork/commit/e043ea3c19d53e315c2440c8f75bddfc544377ba))
+* WIP ([37da4d1](https://github.com/thomaspoignant/goff-fork/commit/37da4d13dba269606de21f3588ca0ec5703a7d72))
+* WIP ([03190c3](https://github.com/thomaspoignant/goff-fork/commit/03190c3c0d26a07fd14955d85ec016e59a2e80e2))
+
 ## [1.47.1](https://github.com/thomaspoignant/goff-fork/compare/v1.47.0...v1.47.1) (2025-10-10)
 
 
