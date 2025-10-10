@@ -1,12 +1,9 @@
 name: update-internal-module
-
 on:
-    push:
-        branches: [main]
+    release:
+        types: [published]
 
-permissions:
-    contents: write
-    pull-requests: write
+permissions: read-all
 
 jobs:
     main-release:
