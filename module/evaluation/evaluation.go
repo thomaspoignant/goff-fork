@@ -3,5 +3,5 @@ package evaluation
 import "fmt"
 
 func FakeEvaluation() {
-	fmt.Println("FakeEvaluation XX")
+	fmt.Println("FakeEvaluation for testying purposes")
 }
