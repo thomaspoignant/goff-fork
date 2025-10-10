@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.2.2...openfeature/providers/kotlin-provider/v1.3.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* Update build.gradle.kts ([b5f9ca7](https://github.com/thomaspoignant/goff-fork/commit/b5f9ca779de656587870ea866b1d9ca29bef5c48))
+* Update build.gradle.kts ([19044a9](https://github.com/thomaspoignant/goff-fork/commit/19044a905abffdc20c645ff4bb40bfded466f535))
+
 ## [1.2.2](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.2.1...openfeature/providers/kotlin-provider/v1.2.2) (2025-10-10)
 
 
