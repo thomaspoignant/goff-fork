@@ -28,14 +28,13 @@
         ".": {
             "release-type": "go",
             "include-component-in-tag": false,
-            "changelog-path": "CHANGELOG.md",
+            "changelog-path": ".github/release-please/CHANGELOG.md",
             "path": ".",
             "exclude-paths": [
                 "module/evaluation",
                 "openfeature/providers/kotlin-provider",
                 "openfeature/providers/python-provider",
-                ".github/release-please",
-                "CHANGELOG.md"
+                ".github/release-please"
             ]
         },
         "module/evaluation": {
@@ -50,7 +49,7 @@
             "path": "openfeature/providers/kotlin-provider",
             "include-component-in-tag": true,
             "component": "openfeature/providers/kotlin-provider",
-            "changelog-path": "openfeature/providers/kotlin-provider/CHANGELOG.md",
+            "changelog-path": "CHANGELOG.md",
             "skip-snapshot": true,
             "extra-files": [
                 "gradle.properties",
