@@ -1,17 +1,43 @@
 name: update-internal-module
 on:
-    release:
-        types: [published]
+  release:
+    types: [published]
 
 permissions: read-all
 
 jobs:
-    main-release:
-        if: ${{ startsWith(github.event.release.tag_name, 'module/evaluation') }}
-        name: check if release is a module/evaluation release
-        runs-on: ubuntu-latest
-        steps:
-            - name: Extract and print version
-              run: |
-                  VERSION=${GITHUB_REF#refs/tags/module/evaluation/}
-                  echo "Version: $VERSION"
+  main-release:
+    if: ${{ startsWith(github.event.release.tag_name, 'module/evaluation') }}
+    name: check if release is a module/evaluation release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract and print version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/module/evaluation/}
+          echo "Version: $VERSION"
+      - name: Setup go
+        uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
+        with:
+          go-version-file: module/evaluation/go.mod
+          check-latest: true
+      - name: Update internal module
+        run: |
+          go get github.com/thomaspoignant/goff-fork/module/evaluation@$VERSION
+          go mod tidy
+          go mod vendor
+          go mod verify
+      - name: Create Pull Request to wasm-releases
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
+        with:
+          branch: bump-evaluation-module-${{  github.ref_name }}
+          title: "chore(dependency): Bump evaluation module to ${{  github.ref_name }}"
+          body: |
+            Automated pull request to bump version of evaluation module to ${{  github.ref_name }}
+          commit-message: "chore(dependency): Bump evaluation module to ${{  github.ref_name }}"
+          assignees: thomaspoignant
+          draft: false
+          signoff: true
+          delete-branch: true
+          labels: automerge
+          path: wasm-releases
+          token: ${{ secrets.PAT }}

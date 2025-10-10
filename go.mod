@@ -3,7 +3,6 @@ module github.com/thomaspoignant/go-feature-flag
 go 1.24.6
 
 require (
-	github.com/thomaspoignant/goff-fork/module/evaluation v1.1.0
 	cloud.google.com/go/pubsub v1.50.0
 	cloud.google.com/go/pubsub/v2 v2.2.0
 	cloud.google.com/go/storage v1.57.0
@@ -63,6 +62,7 @@ require (
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.39.0
 	github.com/testcontainers/testcontainers-go/modules/redis v0.39.0
 	github.com/thejerf/slogassert v0.3.4
+	github.com/thomaspoignant/goff-fork/module/evaluation v1.2.0
 	github.com/xdg-go/scram v1.1.2
 	github.com/xitongsys/parquet-go v1.6.2
 	github.com/xitongsys/parquet-go-source v0.0.0-20230830030807-0dd610dbff1d
