@@ -3,6 +3,7 @@ module github.com/thomaspoignant/go-feature-flag
 go 1.24.6
 
 require (
+	github.com/thomaspoignant/goff-fork/module/evaluation v1.1.0
 	cloud.google.com/go/pubsub v1.50.0
 	cloud.google.com/go/pubsub/v2 v2.2.0
 	cloud.google.com/go/storage v1.57.0

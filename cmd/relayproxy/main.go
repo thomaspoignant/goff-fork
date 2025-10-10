@@ -14,6 +14,7 @@ import (
 	"github.com/thomaspoignant/go-feature-flag/cmd/relayproxy/metric"
 	"github.com/thomaspoignant/go-feature-flag/cmd/relayproxy/service"
 	"github.com/thomaspoignant/go-feature-flag/notifier"
+	"github.com/thomaspoignant/goff-fork/module/evaluation"
 	"go.uber.org/zap"
 )
 
@@ -43,6 +44,7 @@ _____________________________________________`
 // @name Authorization
 // @description Use configured APIKeys in yaml config as authorization keys, disabled when this yaml config is not set.
 func main() {
+	evaluation.FakeEvaluation()
 	// Init pFlag for config file
 	f := pflag.NewFlagSet("config", pflag.ContinueOnError)
 	f.String("config", "", "Location of your config file")
