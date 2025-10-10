@@ -5,6 +5,7 @@
     "separate-pull-requests": true,
     "include-v-in-tag": true,
     "tag-separator": "/",
+    "commit-search-depth": 400,
     "changelog-sections": [
         {
             "type": "fix",
@@ -39,12 +40,14 @@
         },
         "module/evaluation": {
             "release-type": "go",
+            "path": "module/evaluation",
             "include-component-in-tag": true,
             "component": "module/evaluation",
             "changelog-path": "CHANGELOG.md"
         },
         "openfeature/providers/kotlin-provider": {
             "release-type": "java",
+            "path": "openfeature/providers/kotlin-provider",
             "include-component-in-tag": true,
             "component": "openfeature/providers/kotlin-provider",
             "changelog-path": "openfeature/providers/kotlin-provider/CHANGELOG.md",
@@ -57,6 +60,7 @@
         },
         "openfeature/providers/python-provider": {
             "release-type": "python",
+            "path": "openfeature/providers/python-provider",
             "include-component-in-tag": true,
             "component": "openfeature/providers/python-provider",
             "changelog-path": "CHANGELOG.md",
