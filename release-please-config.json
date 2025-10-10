@@ -11,8 +11,7 @@
             "changelog-path": "CHANGELOG.md",
             "path": ".",
             "exclude-paths": [
-                "module/",
-                "openfeature/providers/"
+                "module/evaluation"
             ]
         },
         "module/evaluation": {
