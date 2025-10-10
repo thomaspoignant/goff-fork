@@ -42,5 +42,4 @@ jobs:
           signoff: true
           delete-branch: true
           labels: automerge
-          path: wasm-releases
           token: ${{ secrets.PAT }}
