@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.2.0...openfeature/providers/kotlin-provider/v1.2.1) (2025-10-10)
+
+
+### 🔧 Chores
+
+* **main:** release openfeature/providers/kotlin-provider 1.2.0 ([adeb8a1](https://github.com/thomaspoignant/goff-fork/commit/adeb8a18180346c7cc41fc301955615626c4cfaf))
+* **main:** release openfeature/providers/kotlin-provider 1.2.0 ([9d49ac7](https://github.com/thomaspoignant/goff-fork/commit/9d49ac78716c59722815b6fd8e89d2891c07af0a))
+
 ## [1.2.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/kotlin-provider/v1.1.0...openfeature/providers/kotlin-provider/v1.2.0) (2025-10-10)
 
 
