@@ -11,6 +11,8 @@
 ### 🔧 Chores
 
 * **main:** release module/evaluation 1.1.0 ([81e9743](https://github.com/thomaspoignant/goff-fork/commit/81e9743db2d012d2c183e104ebf5dc2582e9a569))
+* **main:** release openfeature/providers/python-provider 1.0.1 ([add5e86](https://github.com/thomaspoignant/goff-fork/commit/add5e86c83f06bbb08818cdfb99b01aa2db2f61d))
+* **main:** release openfeature/providers/python-provider 1.0.1 ([e64b319](https://github.com/thomaspoignant/goff-fork/commit/e64b31983de50c5f532685ba22d458d4f4a1e625))
 
 ## [1.48.0](https://github.com/thomaspoignant/goff-fork/compare/v1.47.1...v1.48.0) (2025-10-10)
 
