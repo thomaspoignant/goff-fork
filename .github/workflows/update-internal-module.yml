@@ -22,6 +22,7 @@ jobs:
 
       - name: Update internal module
         run: |
+          export GOWORK=off
           VERSION=${GITHUB_REF#refs/tags/module/evaluation/}
           go get github.com/thomaspoignant/goff-fork/module/evaluation@$VERSION
           go mod tidy
