@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/python-provider/v1.1.0...openfeature/providers/python-provider/v1.2.0) (2025-10-10)
+
+
+### 🚀 New Features
+
+* Update README.md ([#69](https://github.com/thomaspoignant/goff-fork/issues/69)) ([eb637c3](https://github.com/thomaspoignant/goff-fork/commit/eb637c3fc045f57df97b0ad3db299fa88dce8406))
+
 ## [1.1.0](https://github.com/thomaspoignant/goff-fork/compare/openfeature/providers/python-provider/v1.0.2...openfeature/providers/python-provider/v1.1.0) (2025-10-10)
 
 
