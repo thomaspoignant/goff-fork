@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.48.2](https://github.com/thomaspoignant/goff-fork/compare/v1.48.1...v1.48.2) (2025-10-10)
+
+
+### 🔧 Chores
+
+* **main:** release 1.48.1 ([1bcaaae](https://github.com/thomaspoignant/goff-fork/commit/1bcaaae4a6868feea4d32a21155d192a5c5c2388))
+* **main:** release 1.48.1 ([70845e0](https://github.com/thomaspoignant/goff-fork/commit/70845e0008b7b64601c38480c703d1b5f7bb4220))
+* **main:** release openfeature/providers/kotlin-provider 1.2.0 ([5db3e25](https://github.com/thomaspoignant/goff-fork/commit/5db3e255dd7e55d3a9bf98d3085cb30e37f8a223))
+
 ## [1.48.1](https://github.com/thomaspoignant/goff-fork/compare/v1.48.0...v1.48.1) (2025-10-10)
 
 
@@ -11,8 +20,6 @@
 ### 🔧 Chores
 
 * **main:** release module/evaluation 1.1.0 ([81e9743](https://github.com/thomaspoignant/goff-fork/commit/81e9743db2d012d2c183e104ebf5dc2582e9a569))
-* **main:** release openfeature/providers/python-provider 1.0.1 ([add5e86](https://github.com/thomaspoignant/goff-fork/commit/add5e86c83f06bbb08818cdfb99b01aa2db2f61d))
-* **main:** release openfeature/providers/python-provider 1.0.1 ([e64b319](https://github.com/thomaspoignant/goff-fork/commit/e64b31983de50c5f532685ba22d458d4f4a1e625))
 
 ## [1.48.0](https://github.com/thomaspoignant/goff-fork/compare/v1.47.1...v1.48.0) (2025-10-10)
 
