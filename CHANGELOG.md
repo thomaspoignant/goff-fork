@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.49.1](https://github.com/thomaspoignant/goff-fork/compare/v1.49.0...v1.49.1) (2025-10-10)
+
+
+### 🐛 Bug Fixes
+
+* ignore path ([313e0cf](https://github.com/thomaspoignant/goff-fork/commit/313e0cf6d1fb6bdfe994b24f22af9adf05be268d))
+
 ## [1.49.0](https://github.com/thomaspoignant/goff-fork/compare/v1.48.5...v1.49.0) (2025-10-10)
 
 
