@@ -20,6 +20,10 @@ jobs:
         with:
           go-version-file: module/evaluation/go.mod
           check-latest: true
+
+      - name: Checkout goff-fork repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
       - name: Update internal module
         run: |
           go get github.com/thomaspoignant/goff-fork/module/evaluation@$VERSION
