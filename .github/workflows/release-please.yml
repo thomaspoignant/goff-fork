@@ -9,10 +9,13 @@ permissions:
   pull-requests: write
 
 jobs:
-  releaseplease:
+  release-please:
     runs-on: ubuntu-latest
+    outputs:
+      module_evaluation_released: ${{ steps.release.outputs['module/evaluation--release_created'] }}
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           # uses default file names: release-please-config.json + .release-please-manifest.json
           # no extra inputs needed for v4
@@ -25,7 +28,7 @@ jobs:
 
   check-release:
     runs-on: ubuntu-latest
-    needs: releaseplease
-    if: ${{ needs.releaseplease.outputs['module/evaluation--release_created'] }}
+    needs: release-please
+    if: ${{ needs.release-please.outputs.module_evaluation_released == 'true' }}
     steps:
       - run: echo "Module/evaluation release created"
