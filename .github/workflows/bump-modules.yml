@@ -6,7 +6,7 @@ on:
 permissions: read-all
 
 jobs:
-  main-release:
+  module-evaluation:
     if: ${{ startsWith(github.event.release.tag_name, 'module/evaluation') }}
     name: check if release is a module/evaluation release
     runs-on: ubuntu-latest
@@ -25,6 +25,45 @@ jobs:
           export GOWORK=off
           VERSION=${GITHUB_REF#refs/tags/module/evaluation/}
           go get github.com/thomaspoignant/goff-fork/module/evaluation@$VERSION
+          go mod tidy
+          go mod vendor
+          go mod verify
+
+      - name: Create Pull Request to bump evaluation module
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
+        with:
+          branch: bump-evaluation-module-${{  github.ref_name }}
+          title: "chore(dependency): Bump ${{  github.ref_name }}"
+          body: |
+            Automated pull request to bump version ${{  github.ref_name }}
+          commit-message: "chore(dependency): Bump ${{  github.ref_name }}"
+          assignees: thomaspoignant
+          draft: false
+          signoff: true
+          delete-branch: true
+          base: main
+          labels: automerge
+          token: ${{ secrets.PAT }}
+
+  module-core:
+    if: ${{ startsWith(github.event.release.tag_name, 'module/core') }}
+    name: check if release is a module/core release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout goff-fork repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Setup go
+        uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
+        with:
+          go-version-file: module/core/go.mod
+          check-latest: true
+
+      - name: Update internal module
+        run: |
+          export GOWORK=off
+          VERSION=${GITHUB_REF#refs/tags/module/core/}
+          go get github.com/thomaspoignant/goff-fork/module/core@$VERSION
           go mod tidy
           go mod vendor
           go mod verify

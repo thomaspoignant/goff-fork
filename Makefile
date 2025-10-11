@@ -1,4 +1,4 @@
-GOCMD=go
+GOCMD=GOWORK=off go
 TINYGOCMD=tinygo
 GOTEST=$(GOCMD) test
 GOVET=$(GOCMD) vet
