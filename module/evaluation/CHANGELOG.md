@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.3.0...module/evaluation/v1.4.0) (2025-10-11)
+
+
+### 🚀 New Features
+
+* Update evaluation.go ([6684ec8](https://github.com/thomaspoignant/goff-fork/commit/6684ec84111104a9fec4a63d76c9e2de2c497dfb))
+
 ## [1.3.0](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.2.0...module/evaluation/v1.3.0) (2025-10-11)
 
 
