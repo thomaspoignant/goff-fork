@@ -26,6 +26,6 @@ jobs:
   check-release:
     runs-on: ubuntu-latest
     needs: release-please
-    if: ${{ toJSON(needs.release-please.outputs)['module/core--releases_created'] == 'true' }}
+    if: ${{ toJSON(needs.release-please.outputs)['module/evaluation--releases_created'] == 'true' }}
     steps:
-      - run: echo "Module/core release created"
+      - run: echo "Module/evaluation release created"
