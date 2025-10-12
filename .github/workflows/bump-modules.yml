@@ -1,5 +1,8 @@
 name: bump module dependency
-permissions: read-all
+permissions:
+  actions: read
+  contents: read
+
 on:
   workflow_call:
     inputs:
