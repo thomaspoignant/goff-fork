@@ -7,6 +7,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: read
 
 jobs:
   release-please:
@@ -27,8 +28,6 @@ jobs:
           manifest-file: .github/release-please/.release-please-manifest.json
 
   check-release:
-    permissions:
-      actions: read
     if: ${{ needs.release-please.outputs.module_evaluation_released == 'true' }}
     uses: ./.github/workflows/bump-modules.yml
     needs: release-please
