@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.2](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.6.1...module/evaluation/v1.6.2) (2025-10-12)
+
+
+### 🐛 Bug Fixes
+
+* Update evaluation.go ([ac16a32](https://github.com/thomaspoignant/goff-fork/commit/ac16a3295e112fa6a60a123ad7ca908ce728d1c6))
+* Update evaluation.go ([e401c93](https://github.com/thomaspoignant/goff-fork/commit/e401c935e676e73f1a405615f949cfaa73806bf6))
+
 ## [1.6.1](https://github.com/thomaspoignant/goff-fork/compare/module/evaluation/v1.6.0...module/evaluation/v1.6.1) (2025-10-12)
 
 
