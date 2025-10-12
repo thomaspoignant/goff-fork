@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       module_evaluation_released: ${{ steps.release.outputs['module/evaluation--release_created'] }}
+      module_evaluation_version: ${{ steps.release.outputs['module/evaluation--version'] }}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
@@ -33,3 +34,4 @@ jobs:
     needs: release-please
     with:
       modulePath: module/evaluation
+      version: ${{ needs.release-please.outputs.module_evaluation_version }}

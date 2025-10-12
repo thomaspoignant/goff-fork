@@ -1,3 +1,7 @@
+# ---------------------------------------
+# Bump module dependency is a workflow that bumps the dependency of a module to the latest version.
+# This is a reusable workflow and is used by the release-please workflow to bump the dependency of the module to the latest version.
+# ---------------------------------------
 name: bump module dependency
 permissions:
   actions: read
@@ -7,6 +11,7 @@ on:
   workflow_call:
     inputs:
       modulePath: { type: string, required: true }
+      version: { type: string, required: true }
 
 jobs:
   bump-module:
@@ -26,7 +31,7 @@ jobs:
         run: |
           export GOWORK=off
           VERSION=${GITHUB_REF#refs/tags/modules/evaluation/}
-          go get github.com/thomaspoignant/go-feature-flag/${{ inputs.modulePath }}@$VERSION
+          go get github.com/thomaspoignant/go-feature-flag/${{ inputs.modulePath }}@${{ inputs.version }}
           go mod tidy
           go mod vendor
           go mod verify
@@ -34,11 +39,11 @@ jobs:
       - name: Create Pull Request to bump module
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
-          branch: bump-module-${{ inputs.modulePath }}-${{  github.ref_name }}
-          title: "chore(dependency): Bump module ${{  inputs.modulePath }} ${{  github.ref_name }}"
+          branch: bump-module-${{ inputs.modulePath }}-${{ inputs.version }}
+          title: "chore(dependency): Bump module ${{  inputs.modulePath }} ${{ inputs.version }}"
           body: |
-            Automated pull request to bump module  ${{  inputs.modulePath }} ${{  github.ref_name }}"
-          commit-message: "chore(dependency): Bump module  ${{  inputs.modulePath }} ${{  github.ref_name }}"
+            Automated pull request to bump module  ${{  inputs.modulePath }} ${{ inputs.version }}"
+          commit-message: "chore(dependency): Bump module  ${{  inputs.modulePath }} ${{ inputs.version }}"
           assignees: thomaspoignant
           draft: false
           signoff: true
