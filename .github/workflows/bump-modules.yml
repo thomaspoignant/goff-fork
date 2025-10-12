@@ -9,7 +9,8 @@ on:
       modulePath: { type: string, required: true }
 
 jobs:
-  evaluation-module-release:
+  bump-module:
+    name: Bump module dependency ${{ inputs.modulePath }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
