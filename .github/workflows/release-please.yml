@@ -32,3 +32,6 @@ jobs:
     if: ${{ needs.release-please.outputs.module_evaluation_released == 'true' }}
     steps:
       - run: echo "Module/evaluation release created"
+      - uses: ./.github/workflows/bump-modules.yml
+        with:
+          modulePath: module/evaluation
