@@ -1,6 +1,7 @@
 // Package ffclient aids adding instrumentation to have feature flags in your
 // app without any backend server.
 //
+//
 // # Summary
 //
 // This package and its subpackages contain bits of code to have an easy feature
