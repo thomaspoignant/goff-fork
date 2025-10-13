@@ -40,6 +40,7 @@ jobs:
 
   root-release:
     runs-on: ubuntu-latest
+    needs: release-please
     if: ${{ needs.release-please.outputs.root_released == 'true' }}
     steps:
       - run: echo "Root released version ${{ needs.release-please.outputs.root_version }}"
