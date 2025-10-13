@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.52.0](https://github.com/thomaspoignant/goff-fork/compare/v1.51.0...v1.52.0) (2025-10-13)
+
+
+### 🐛 Bug Fixes
+
+* cfevkug ([e8d20c7](https://github.com/thomaspoignant/goff-fork/commit/e8d20c748fabb91efce0a5967ace1cf8814bcc50))
+* test ([91a9c59](https://github.com/thomaspoignant/goff-fork/commit/91a9c594995d087090389eced94d903e6b55a4b8))
+* test ([9ead382](https://github.com/thomaspoignant/goff-fork/commit/9ead3822bd89268be9abe12046d4010c3160c882))
+* test ([fd79073](https://github.com/thomaspoignant/goff-fork/commit/fd790737548bd3fbf27ad1b7e4b88d9eab835bd6))
+* toot ([db44b76](https://github.com/thomaspoignant/goff-fork/commit/db44b76c0c8ea91892cd8db4de261848563c37b3))
+* toot ([6dddc36](https://github.com/thomaspoignant/goff-fork/commit/6dddc361dc8c3b976ef811ee7eb4094984bbfdeb))
+* toto ([23ad43a](https://github.com/thomaspoignant/goff-fork/commit/23ad43a0d2a28d45949a345e5c64576baf3ede50))
+* toto ([ad8b26b](https://github.com/thomaspoignant/goff-fork/commit/ad8b26bbf4587afb2776501f39904e0b40002f43))
+* toto ([4c9da27](https://github.com/thomaspoignant/goff-fork/commit/4c9da27451a7ef450de42cbf90e032a6e3ed5eeb))
+* toto ([83e2fcd](https://github.com/thomaspoignant/goff-fork/commit/83e2fcd8deee6893a9a41dc8773b313ceb208dee))
+* toto ([a11f9f5](https://github.com/thomaspoignant/goff-fork/commit/a11f9f5877bf03d95dd72bb829700b610c584bc2))
+* toto ([864d214](https://github.com/thomaspoignant/goff-fork/commit/864d21433556167ceae1aaf3633901290e2a50d5))
+
+
+### 🚀 New Features
+
+* Toto ([#75](https://github.com/thomaspoignant/goff-fork/issues/75)) ([bda21c3](https://github.com/thomaspoignant/goff-fork/commit/bda21c315c988cfac6e9812f4df7ad87b21120ec))
+* WIP ([60abea6](https://github.com/thomaspoignant/goff-fork/commit/60abea6457bcce02a78c77e55fb0750e5fbdb426))
+* WIP ([16985c8](https://github.com/thomaspoignant/goff-fork/commit/16985c8f9b1499f2ae6a20b3c1f88f3884bb4533))
+
+
+### 🔧 Chores
+
+* bump version ([5cfec74](https://github.com/thomaspoignant/goff-fork/commit/5cfec74d29241c5cd844726d37c346df505b87d5))
+* **dependency:** Bump evaluation module to module/evaluation/v1.2.8 ([#89](https://github.com/thomaspoignant/goff-fork/issues/89)) ([976ca2c](https://github.com/thomaspoignant/goff-fork/commit/976ca2c7b5cc2361e30d36a07f3cce08d5f600c4))
+* **dependency:** Bump module/evaluation/v1.5.0 ([#99](https://github.com/thomaspoignant/goff-fork/issues/99)) ([6bd834f](https://github.com/thomaspoignant/goff-fork/commit/6bd834ff4bab3010db041767d7c79b0a894adcf4))
+* tptp ([c5521b8](https://github.com/thomaspoignant/goff-fork/commit/c5521b8d0fcbd10769ab7e46d82655f537b24194))
+* Update config_test.go ([21b8662](https://github.com/thomaspoignant/goff-fork/commit/21b866215a348f86e3d2033bc919facf7b860c57))
+
 ## [1.47.0](https://github.com/thomaspoignant/goff-fork/compare/v1.46.1...v1.47.0) (2025-10-13)
 
 
