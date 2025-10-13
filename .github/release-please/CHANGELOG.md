@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.53.1](https://github.com/thomaspoignant/goff-fork/compare/v1.53.0...v1.53.1) (2025-10-13)
+
+
+### 🐛 Bug Fixes
+
+* version ([8121a65](https://github.com/thomaspoignant/goff-fork/commit/8121a65d0c0a6b8fc4014403bb4320b8bbfa5207))
+
 ## [1.53.0](https://github.com/thomaspoignant/goff-fork/compare/v1.52.0...v1.53.0) (2025-10-13)
 
 
