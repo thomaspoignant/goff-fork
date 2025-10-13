@@ -35,6 +35,9 @@
                 "openfeature/providers/kotlin-provider",
                 "openfeature/providers/python-provider",
                 ".github/release-please"
+            ],
+            "extra-files": [
+                "cmd/relayproxy/helm-charts/relay-proxy/Chart.yaml"
             ]
         },
         "module/evaluation": {
