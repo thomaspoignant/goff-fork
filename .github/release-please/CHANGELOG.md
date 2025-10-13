@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.53.2](https://github.com/thomaspoignant/goff-fork/compare/v1.53.1...v1.53.2) (2025-10-13)
+
+
+### 🐛 Bug Fixes
+
+* Update config_test.go ([2eb0445](https://github.com/thomaspoignant/goff-fork/commit/2eb04455b93ac5ec2d3788748a7670861d13ce31))
+
 ## [1.53.1](https://github.com/thomaspoignant/goff-fork/compare/v1.53.0...v1.53.1) (2025-10-13)
 
 
