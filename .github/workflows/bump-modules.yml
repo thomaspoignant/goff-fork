@@ -28,10 +28,12 @@ jobs:
           check-latest: true
 
       - name: Update internal module
+        env:
+          VERSION: ${{ inputs.version }}
+          MODULE_PATH: ${{ inputs.modulePath }}
         run: |
           export GOWORK=off
-          VERSION=${GITHUB_REF#refs/tags/modules/evaluation/}
-          go get github.com/thomaspoignant/go-feature-flag/${{ inputs.modulePath }}@${{ inputs.version }}
+          go get github.com/thomaspoignant/go-feature-flag/${MODULE_PATH}@${VERSION}
           go mod tidy
           go mod vendor
           go mod verify

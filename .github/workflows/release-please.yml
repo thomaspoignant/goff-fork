@@ -15,6 +15,8 @@ jobs:
     outputs:
       module_evaluation_released: ${{ steps.release.outputs['module/evaluation--release_created'] }}
       module_evaluation_version: ${{ steps.release.outputs['module/evaluation--version'] }}
+      root_released: ${{ steps.release.outputs['release_created'] }}
+      root_version: ${{ steps.release.outputs['version'] }}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
@@ -35,3 +37,8 @@ jobs:
     with:
       modulePath: module/evaluation
       version: ${{ needs.release-please.outputs.module_evaluation_version }}
+
+  root-release:
+    if: ${{ needs.release-please.outputs.root_released == 'true' }}
+    steps:
+      - run: echo "Root released version ${{ needs.release-please.outputs.root_version }}"
