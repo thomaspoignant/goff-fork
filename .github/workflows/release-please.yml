@@ -39,6 +39,7 @@ jobs:
       version: ${{ needs.release-please.outputs.module_evaluation_version }}
 
   root-release:
+    runs-on: ubuntu-latest
     if: ${{ needs.release-please.outputs.root_released == 'true' }}
     steps:
       - run: echo "Root released version ${{ needs.release-please.outputs.root_version }}"
