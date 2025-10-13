@@ -29,6 +29,7 @@ func TestConfig_GetRetrievers(t *testing.T) {
 	}{
 		{
 			name: "File retriever",
+
 			fields: fields{
 				PollingInterval: 3 * time.Second,
 				Retriever:       &fileretriever.Retriever{Path: "file-example.yaml"},
