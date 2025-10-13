@@ -4,7 +4,6 @@ out/
 .vscode
 .idea
 *.iml
-.run
 
 # reporting stuff
 *-report.xml
