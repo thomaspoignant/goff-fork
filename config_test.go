@@ -14,6 +14,7 @@ import (
 	"github.com/thomaspoignant/go-feature-flag/retriever/gitlabretriever"
 	"github.com/thomaspoignant/go-feature-flag/retriever/httpretriever"
 	"github.com/thomaspoignant/go-feature-flag/retriever/s3retrieverv2"
+
 )
 
 func TestConfig_GetRetrievers(t *testing.T) {
