@@ -13,7 +13,7 @@ import (
 	"github.com/thomaspoignant/go-feature-flag/utils/fflog"
 )
 
-// Config is the configuration of go-feature-flag.
+// Config is the configuration of go-feature-flag.xxx
 // You should also have a retriever to specify where to read the flags file.
 type Config struct {
 	// PollingInterval (optional) Poll every X time
