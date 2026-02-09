@@ -17,6 +17,7 @@ jobs:
       module_evaluation_version: ${{ steps.release.outputs['module/evaluation--version'] }}
       root_released: ${{ steps.release.outputs['release_created'] }}
       root_version: ${{ steps.release.outputs['version'] }}
+      relay_proxy_version: ${{ steps.release.outputs['go-feature-flag--relay-proxy--version'] }}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release

@@ -24,9 +24,19 @@
             "section": "📚 Documentation"
         }
     ],
+    "plugins": [
+        {
+            "type": "linked-versions",
+            "groupName": "go-feature-flag",
+            "components": [".", "relay-proxy"],
+            "merge": true
+        }
+    ],
     "packages": {
         ".": {
+            "package-name": "go-feature-flag",
             "release-type": "go",
+            "component": ".",
             "include-component-in-tag": false,
             "changelog-path": ".github/release-please/CHANGELOG.md",
             "path": ".",
@@ -35,9 +45,6 @@
                 "openfeature/providers/kotlin-provider",
                 "openfeature/providers/python-provider",
                 ".github/release-please"
-            ],
-            "extra-files": [
-                "cmd/relayproxy/helm-charts/relay-proxy/Chart.yaml"
             ]
         },
         "module/evaluation": {
@@ -46,6 +53,17 @@
             "include-component-in-tag": true,
             "component": "module/evaluation",
             "changelog-path": "CHANGELOG.md"
+        },
+        "cmd/relayproxy": {
+            "package-name": "go-feature-flag",
+            "release-type": "go",
+            "path": "cmd/relayproxy",
+            "include-component-in-tag": true,
+            "component": "relay-proxy",
+            "changelog-path": ".github/release-please/RELAY_PROXY_CHANGELOG.md",
+            "extra-files": [
+                "helm-charts/relay-proxy/Chart.yaml"
+            ]
         },
         "openfeature/providers/kotlin-provider": {
             "release-type": "java",
