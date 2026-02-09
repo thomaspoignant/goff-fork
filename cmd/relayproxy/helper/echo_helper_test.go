@@ -15,7 +15,7 @@ import (
 
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
-		name           string
+		name           string // toto
 		authorization  string
 		expectedAPIKey string
 	}{
