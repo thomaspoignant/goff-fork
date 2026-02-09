@@ -28,7 +28,10 @@
         {
             "type": "linked-versions",
             "groupName": "go-feature-flag",
-            "components": [".", "relay-proxy"],
+            "components": [
+                ".",
+                "relay-proxy"
+            ],
             "merge": true
         }
     ],
