@@ -1,6 +1,6 @@
 {
-    ".": "1.53.2",
-    "cmd/relayproxy": "1.53.2",
+    ".": "1.54.0",
+    "cmd/relayproxy": "1.54.0",
     "module/evaluation": "1.7.0",
     "module/core": "1.0.0",
     "openfeature/providers/python-provider": "0.4.4",
